@@ -1,0 +1,15 @@
+@import "bootstrap";
+
+dt {
+  font-size: $font-size-h2;
+  margin-top: 10px;
+}
+
+dt:hover {
+  background-color: #f9f9f9;
+}
+
+dd {
+  color: $gray-light;
+  font-size: $font-size-h6;
+}
