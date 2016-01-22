@@ -1,7 +1,8 @@
 # Phonetic
 
-Convert a string of letters and numbers into a list of their phonetic
-pronunciations
+I cannot seem to memorize the [Phonetic Alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet).
+So I created this small webapp to help me read aloud long strings of alpha
+numeric charaters while on the phone.
 
 ## Requirements
 
