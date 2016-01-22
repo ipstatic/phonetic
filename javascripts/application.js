@@ -1,20 +1,19 @@
 $(document).ready(function() {
   var input = $(':input');
-  var target = $('#target');
 
   input.focus();
 
   input.on('input', function() {
     var str = this.value;
+    var target = $('#target');
     target.empty();
-    target.append('<dl>');
     for (var i = 0, len = str.length; i < len; i++) {
-      ph(str[i].toLowerCase());
+      ph(str[i].toLowerCase(), target);
     }
-    target.append('</dl>');
+    target.wrapInner('<dl></dl>');
   });
 
-  function ph(a) {
+  function ph(a, target) {
     var t = {
       a: ['Alpha', 'AL-FAH'],
       b: ['Bravo', 'BRAH-VOH'],
